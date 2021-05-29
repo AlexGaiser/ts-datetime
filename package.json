@@ -1,6 +1,6 @@
 {
   "name": "ts-datetime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This library providees several utility functions for managing and processing dates.",
   "main": "dist/lib/index.js",
   "browser": "dist/lib/index.js",
