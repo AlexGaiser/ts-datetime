@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexGaiser/ts-datetime.git"

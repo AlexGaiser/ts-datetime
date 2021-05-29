@@ -22,19 +22,6 @@ const DAY_STRINGS = {
   5: "Friday",
 };
 
-const parseDateFormat = (formatString: string) => {
-  const stringArr = formatString.split("");
-
-  const delimiters = stringArr.filter(
-    (a) => a === "/" || a === "-" || a === " "
-  );
-  console.log(delimiters);
-};
-
-const isValidDateFormat = (dateFormat: string): boolean => {
-  return true;
-};
-
 export const formatDate = (date: Date, format: string): string => {
   if (date[format]) {
     return date[format]();
@@ -43,11 +30,11 @@ export const formatDate = (date: Date, format: string): string => {
   }
 };
 
-const getMonthString = (month: number): string => {
+export const getMonthString = (month: number): string => {
   return MONTH_STRINGS[month];
 };
 
-const getDayString = (day: number): string => {
+export const getDayString = (day: number): string => {
   return DAY_STRINGS[day];
 };
 
