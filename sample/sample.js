@@ -1,4 +1,3 @@
-const { formatDate } = require("../dist/cjs");
-const tsDate = require("ts-date");
+const { formatDate } = require("ts-datetime");
+
 formatDate();
-// const freepi = require("freepi");
