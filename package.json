@@ -2,12 +2,13 @@
   "name": "ts-datetime",
   "version": "0.0.2",
   "description": "This library providees several utility functions for managing and processing dates.",
-  "main": "dist/lib/index.js",
-  "browser": "dist/lib/index.js",
-  "module": "dist/lib/index.jss",
-  "types": "dist/lib/index.d.ts",
+  "main": "dist/cjs.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup -c"
   },
   "files": [
     "dist/"
@@ -35,6 +36,10 @@
     "jest": "^27.0.1",
     "prettier": "^2.3.0",
     "ts-jest": "^27.0.1",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.2",
+    "rollup": "^2.50.4",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.30.0"
   }
 }

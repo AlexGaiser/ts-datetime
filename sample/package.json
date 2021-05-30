@@ -1,6 +1,6 @@
 {
   "name": "sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "sample.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-datetime": "0.0.1"
-  }
+    "freepi": "^3.0.3",
+    "ts-date": "^3.0.2",
+    "ts-datetime": "0.0.2"
+  },
+  "devDependencies": {}
 }

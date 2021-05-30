@@ -1,18 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ES2020",
+    "target": "ES5",
+    "module": "ES6",
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "declaration": true,
-    "composite": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "outDir":"dist",
-    "downlevelIteration": true,
+    "moduleResolution": "node"
   },
   "include": ["lib/**/*"],
   "exclude": ["*.test.ts"]
